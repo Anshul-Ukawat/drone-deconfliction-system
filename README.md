@@ -39,7 +39,7 @@ drone-deconfliction-system/<br>
 ├── simulator.py # Drone path simulation logic <br>
 ├── visualizer.py # 2D/3D/4D visualization functions <br>
 ├── test_conflict_checker.py # Automated tests using unittest <br>
-├── data/ /<br>
+├── data/ <br>
 │ ├── primary_mission.json # Primary drone flight plan <br>
 │ └── other_flights.json # Simulated drone flight schedules<br> 
 ├── README.md <br>
@@ -71,22 +71,18 @@ python -m unittest test_conflict_checker.py
 Includes tests for:
 
 - ✅ Conflict-free missions
-
 - 🕒 Time-only conflicts
-
 - 📍 Space-only conflicts
-
 - 🔄 Combined space-time violations
-
 - ⚠️ Edge buffer overlaps
 
 ---
 ## 🧠 AI Integration
-This system uses a Random Forest Classifier as an AI-powered pre-check to quickly classify whether a mission is likely to be safe or conflicted. It helps optimize performance before expensive detailed checks./<br>
-Highlights:/<br>
-- Feature engineering on mission overlap, speed, spacing, and time windows
-- Trained on a synthetic conflict dataset
-- Skips detailed checks on clearly safe or clearly conflicting missions
+This system uses a Random Forest Classifier as an AI-powered pre-check to quickly classify whether a mission is likely to be safe or conflicted. It helps optimize performance before expensive detailed checks.<br>
+Highlights:<br>
+- 🧬 **Feature Engineering** on mission overlap, speed, spacing, and time windows  
+- 🧪 **Trained on Synthetic Conflict Data** to simulate real-world scenarios  
+- ⚡ **Fast Filtering Layer**: Skips detailed checks on clearly safe or clearly conflicting missions  
 
 ---
 ## 🌍 Scalability Strategy
@@ -102,5 +98,5 @@ More detail in Reflection.md
 MIT License – free to use, modify, and distribute.
 
 ## ⭐ Feedback & Contributions
-Pull requests and issue reports are welcome!/<br>
+Pull requests and issue reports are welcome!<br>
 If you like the project, give it a ⭐ and share it!
