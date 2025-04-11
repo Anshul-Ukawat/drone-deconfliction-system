@@ -1,7 +1,7 @@
-# 🛰️ Drone Deconfliction System
+# 🛡️ Aeroflect: Strategic Drone Deconfliction System
 
-Strategic 4D deconfliction and simulation for autonomous drone flight planning.  
-This system verifies the safety of a drone’s waypoint mission in shared airspace by checking for spatial and temporal conflicts with other drones — with **AI integration**, **automated tests**, and **4D visualization**.
+**Safeguarding the skies with 4D flight intelligence.**  
+_Aeroflect_ is a powerful spatio-temporal deconfliction system for autonomous drones, ensuring safe, efficient, and AI-assisted flight planning in shared airspace.
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
